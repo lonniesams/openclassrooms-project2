@@ -121,8 +121,81 @@ grid-row-gap: 10px;
 }
 
 
+.activities {
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  grid-template-columns: auto auto auto auto;
+  background-color: #F2F2;
+  width: 1565px;
+  height: 450px;
+  margin-top: 40px;
+
+}
+
+#box-act-1 {
+  background-color: black;
+  width: 350px;
+  height: 400px;
+  margin-top: 40px;
+  border-radius: 10px;
 
 
+
+}
+
+#box-act-2 {
+  background-color: black;
+  width: 350px;
+  height: 200px;
+  margin-top: 40px;
+  border-radius: 10px;
+
+
+}
+
+#box-act-6 {
+  background-color: black;
+  width: 350px;
+  height: 150px;
+  margin-top: -150px;
+  border-radius: 10px;
+}
+
+#box-act-3 {
+  background-color: black;
+  width: 350px;
+  height: 400px;
+  margin-top: 40px;
+  border-radius: 10px;
+}
+
+#box-act-4 {
+  background-color: black;
+  width: 350px;
+  height: 200px;
+  margin-top: 40px;
+  border-radius: 10px;
+
+}
+
+#box-act-8 {
+  background-color: black;
+  width: 350px;
+  height: 160px;
+  margin-top: -160px;
+  border-radius: 10px;
+}
+
+/* Blank Divs future use only */
+
+#box-act-5 {
+
+}
+
+#box-act-7 {
+
+}
+/* Blank Divs future use only */
 
 /* Seach button css */
 
