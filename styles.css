@@ -15,7 +15,6 @@ Body {
 .links-head {
 float: right;
 
-
 }
 
 .flex-container-1 li {
@@ -63,7 +62,8 @@ float: right;
   margin: 19px;
   flex-direction: row;
   margin-top: 40px;
-
+  font-family: 'Raleway', sans-serif;
+  display: inline-flex;
 }
 
 
@@ -74,12 +74,18 @@ float: right;
 .button {
   margin: 10px;
   border-radius: 20px 20px 20px 20px;
+  background-color: white;
+  font-family: 'Raleway', sans-serif;
+  border none;
+  font-weight: bold;
+
 }
 
 .flex-container-5 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+
 }
 
 .box-1 {
@@ -99,7 +105,7 @@ grid-row-gap: 10px;
 .box-1 div {
 
   margin: 15px 15px 15px 15px;
-  max-width: 100px,
+  max-width: 90px,
   max-height: 90px;
   border-radius: 10px;
 
@@ -141,13 +147,13 @@ grid-row-gap: 10px;
 }
 
 .box-2 {
-
+  
   border: white solid;
   width: 600px;
   height: 500px;
   background-color: #F2F2;
   border-radius: 15px;
-  display:  grid;
+  display: grid;
   grid-template-columns: auto;
   justify-content: center;
 }
@@ -181,7 +187,7 @@ grid-row-gap: 10px;
   display: grid;
   grid-template-rows: auto auto auto auto;
   grid-template-columns: auto auto auto auto;
-  background-color: white;
+  background-color: light-grey;
   width: 1565px;
   height: 450px;
   margin-top: 40px;
@@ -276,6 +282,7 @@ grid-row-gap: 10px;
 #about{
   margin-top: 40px;
 
+
 }
 
 #about ul {
@@ -300,6 +307,16 @@ margin-top: 40px;
 #assistance ul {
   list-style-type: none;
 
+}
+
+.title-activites b {
+  margin: 20px;
+  font-family: 'Raleway', sans-serif;
+  position: absolute;
+}
+
+a:hover {
+  background-color: #DEEBFF;
 }
 
 /* Seach button css */
