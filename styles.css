@@ -12,6 +12,10 @@ Body {
 
 }
 
+.flex-container-1 li:hover {
+  background-color: #DEEBFF;
+}
+
 .links-head {
 float: right;
 
@@ -21,6 +25,7 @@ float: right;
   margin: 20px;
   font-family: 'Raleway', sans-serif;
   color: #0065FC;
+  margin-top: auto;
 }
 
 .flex-container-1 ul {
@@ -58,14 +63,29 @@ float: right;
 
 
 .flex-container-4 {
-  display: flex;
+  display: grid;
   margin: 19px;
-  flex-direction: row;
+  grid-auto-rows: auto;
+  grid-template-columns: auto auto auto auto auto;
+  justify-content: start;
+  grid-row-gap: 1px;
   margin-top: 40px;
   font-family: 'Raleway', sans-serif;
-  display: inline-flex;
+
 }
 
+.filter {
+display: block;
+
+}
+
+.flex-container-4 div {
+display: inline-block;
+}
+
+.flex-container-4 b{
+  margin-top: 3px;
+}
 
 .flex-container-4 p {
   font-family: 'Raleway', sans-serif;
@@ -78,7 +98,18 @@ float: right;
   font-family: 'Raleway', sans-serif;
   border none;
   font-weight: bold;
+}
 
+.searchButton {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  background-color: #0065FC;
+  border-radius: 5px;
+  color: white;
+}
+
+.searchTerm {
+  font-family: 'Raleway', sans-serif;
 }
 
 .flex-container-5 {
@@ -147,8 +178,8 @@ grid-row-gap: 10px;
 }
 
 .box-2 {
-  
-  border: white solid;
+
+  border: #F2F2 solid;
   width: 600px;
   height: 500px;
   background-color: #F2F2;
@@ -156,6 +187,15 @@ grid-row-gap: 10px;
   display: grid;
   grid-template-columns: auto;
   justify-content: center;
+
+}
+
+.box-2 b {
+  font-family: 'Raleway', sans-serif;
+}
+
+.box-2 div {
+    background-color: #F2F2;
 }
 
 #nicate-lee {
@@ -281,6 +321,7 @@ grid-row-gap: 10px;
 
 #about{
   margin-top: 40px;
+  line-height: 1.6;
 
 
 }
@@ -293,6 +334,7 @@ grid-row-gap: 10px;
 
 #accomdations {
 margin-top: 40px;
+line-height: 1.6;
 }
 
 #accomdations ul {
@@ -302,6 +344,7 @@ margin-top: 40px;
 
 #assistance {
 margin-top: 40px;
+line-height: 1.6;
 }
 
 #assistance ul {
