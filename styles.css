@@ -12,9 +12,12 @@ Body {
 
 }
 
+.flex-container-1 li:hover {
+  background-color: #DEEBFF;
+}
+
 .links-head {
 float: right;
-
 
 }
 
@@ -22,6 +25,7 @@ float: right;
   margin: 20px;
   font-family: 'Raleway', sans-serif;
   color: #0065FC;
+  margin-top: auto;
 }
 
 .flex-container-1 ul {
@@ -53,23 +57,66 @@ float: right;
 
 }
 
+ p {
+  font-family: 'Raleway', sans-serif;
+}
+
 
 .flex-container-4 {
-  display: flex;
+  display: grid;
   margin: 19px;
-  flex-direction: row;
+  grid-auto-rows: auto;
+  grid-template-columns: auto auto auto auto auto;
+  justify-content: start;
+  grid-row-gap: 1px;
   margin-top: 40px;
+  font-family: 'Raleway', sans-serif;
+
+}
+
+.filter {
+display: block;
+
+}
+
+.flex-container-4 div {
+display: inline-block;
+}
+
+.flex-container-4 b{
+  margin-top: 3px;
+}
+
+.flex-container-4 p {
+  font-family: 'Raleway', sans-serif;
 }
 
 .button {
   margin: 10px;
   border-radius: 20px 20px 20px 20px;
+  background-color: white;
+  font-family: 'Raleway', sans-serif;
+  border none;
+  font-weight: bold;
+}
+
+.searchButton {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  background-color: #0065FC;
+  border-radius: 5px;
+  color: white;
+}
+
+.searchTerm {
+  font-family: 'Raleway', sans-serif;
 }
 
 .flex-container-5 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+
 }
 
 .box-1 {
@@ -81,32 +128,87 @@ background-color: #F2F2;
 display: grid;
 grid-template-columns: auto auto auto;
 grid-template-rows: auto auto;
-grid-column-gap: 30px;
+grid-column-gap: 10px;
 grid-row-gap: 10px;
+
 }
 
 .box-1 div {
-  background-color: black;
+
   margin: 15px 15px 15px 15px;
-  width 100px,
-  height 90px;
+  max-width: 90px,
+  max-height: 90px;
   border-radius: 10px;
+
+
 
 }
 
+#annie-spratt {
+  overflow: hidden;
+
+
+}
+
+#aw-creative {
+  overflow: hidden;
+
+}
+
+#emile-guillemot {
+  overflow: hidden;
+
+}
+
+#reisetopia {
+  overflow: hidden;
+}
+
+#fred-kleber {
+  overflow: hidden;
+}
+
+#marcus-loke {
+
+  overflow: hidden;
+}
+
+
+
+}
 
 .box-2 {
 
-  border: white solid;
+  border: #F2F2 solid;
   width: 600px;
   height: 500px;
   background-color: #F2F2;
   border-radius: 15px;
-  display:  grid;
+  display: grid;
   grid-template-columns: auto;
   justify-content: center;
 
+}
 
+.box-2 b {
+  font-family: 'Raleway', sans-serif;
+}
+
+.box-2 div {
+    background-color: #F2F2;
+}
+
+#nicate-lee {
+  overflow: hidden;
+
+}
+
+#reisetopia {
+  overflow: hidden;
+}
+
+#febrian-zakaria {
+  overflow: hidden;
 }
 
 .box-2 div {
@@ -121,8 +223,144 @@ grid-row-gap: 10px;
 }
 
 
+.activities {
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  grid-template-columns: auto auto auto auto;
+  background-color: light-grey;
+  width: 1565px;
+  height: 450px;
+  margin-top: 40px;
+
+}
+
+#box-act-1 {
+  background-color: black;
+  width: 350px;
+  height: 400px;
+  margin-top: 40px;
+  border-radius: 10px;
+  overflow: hidden;
 
 
+}
+
+#box-act-2 {
+  background-color: black;
+  width: 350px;
+  height: 200px;
+  margin-top: 40px;
+  border-radius: 10px;
+  overflow: hidden;
+
+
+}
+
+#box-act-6 {
+  background-color: black;
+  width: 350px;
+  height: 150px;
+  margin-top: -150px;
+  border-radius: 10px;
+  overflow: hidden;
+
+}
+
+#box-act-3 {
+  background-color: black;
+  width: 350px;
+  height: 400px;
+  margin-top: 40px;
+  border-radius: 10px;
+  overflow: hidden;
+
+}
+
+#box-act-4 {
+  background-color: black;
+  width: 350px;
+  height: 200px;
+  margin-top: 40px;
+  border-radius: 10px;
+  overflow: hidden;
+
+}
+
+#box-act-8 {
+  background-color: black;
+  width: 350px;
+  height: 160px;
+  margin-top: -160px;
+  border-radius: 10px;
+  overflow: hidden;
+
+}
+
+/* Blank Divs future use only */
+
+#box-act-5 {
+
+}
+/* Blank Divs future use only */
+#box-act-7 {
+
+}
+/* Blank Divs future use only */
+
+.footer {
+  display: grid;
+  background-color: grey;
+  width: 1565px;
+  height: 250px;
+  margin-top: 40px;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto;
+  justify-content: space-around;
+  font-family: 'Raleway', sans-serif;
+}
+
+#about{
+  margin-top: 40px;
+  line-height: 1.6;
+
+
+}
+
+#about ul {
+  list-style-type: none;
+
+}
+
+
+#accomdations {
+margin-top: 40px;
+line-height: 1.6;
+}
+
+#accomdations ul {
+  list-style-type: none;
+
+}
+
+#assistance {
+margin-top: 40px;
+line-height: 1.6;
+}
+
+#assistance ul {
+  list-style-type: none;
+
+}
+
+.title-activites b {
+  margin: 20px;
+  font-family: 'Raleway', sans-serif;
+  position: absolute;
+}
+
+a:hover {
+  background-color: #DEEBFF;
+}
 
 /* Seach button css */
 
