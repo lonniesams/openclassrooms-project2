@@ -108,9 +108,118 @@ display: inline-block;
   color: white;
 }
 
+.pets-allowed {
+  display: inline-block;
+  padding: 0 25px;
+  height: 28px;
+  font-size: 10px;
+  line-height: 10px;
+  margin-bottom: 3px;
+  border-radius: 20px 20px 20px 20px;
+  background-color: white;
+  border-color: grey;
+  border: 1px solid;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  margin-left: 4px;
+}
+
+.pets-allowed img {
+  line-height: 45px;
+  margin-right: 7px;
+  display: inline-block;
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+}
+.romantic {
+  display: inline-block;
+  padding: 0 25px;
+  height: 28px;
+  font-size: 10px;
+  line-height: 10px;
+  margin-bottom: 3px;
+  border-radius: 20px 20px 20px 20px;
+  background-color: white;
+  border-color: grey;
+  border: 1px solid;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  margin-left: 3px;
+}
+
+.romantic img {
+  line-height: 45px;
+  margin-right: 7px;
+  display: inline-block;
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+}
+.dollar {
+  display: inline-block;
+  padding: 0 25px;
+  height: 28px;
+  font-size: 10px;
+  line-height: 10px;
+  margin-bottom: 3px;
+  border-radius: 20px 20px 20px 20px;
+  background-color: white;
+  border-color: grey;
+  border: 1px solid;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  margin-left: 3px;
+}
+
+.dollar img {
+  line-height: 45px;
+  margin-right: 7px;
+  display: inline-block;
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+}
+
+.family {
+  display: inline-block;
+  padding: 0 25px;
+  height: 28px;
+  font-size: 10px;
+  line-height: 10px;
+  margin-bottom: 3px;
+  border-radius: 20px 20px 20px 20px;
+  background-color: white;
+  border-color: grey;
+  border: 1px solid;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  margin-left: 3px;
+}
+
+.family img {
+  line-height: 45px;
+  margin-right: 7px;
+  display: inline-block;
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+}
+
+.filter b {
+  margin-left: 7px;
+
+}
+
+button:hover .button {
+  background-color: #DEEBFF;
+}
+
 .searchTerm {
   font-family: 'Raleway', sans-serif;
 }
+
+
 
 .flex-container-5 {
   display: flex;
@@ -124,66 +233,53 @@ border: white solid;
 width: 900px;
 height: 500px;
 border-radius: 15px;
-background-color: #F2F2;
+background-color: #b5b3b0;
 display: grid;
-grid-template-columns: auto auto auto;
-grid-template-rows: auto auto;
-grid-column-gap: 10px;
-grid-row-gap: 10px;
+grid-template-columns: 300px 300px 300px;
+grid-template-rows: 240px 240px;
+
 
 }
 
 .box-1 div {
 
   margin: 15px 15px 15px 15px;
-  max-width: 90px,
-  max-height: 90px;
   border-radius: 10px;
+  background-color: white;
 
 
 
 }
 
-#annie-spratt {
-  overflow: hidden;
-
-
+.box-1 b {
+  font-family: 'Raleway', sans-serif;
+  margin: 20px;
 }
 
-#aw-creative {
-  overflow: hidden;
-
-}
-
-#emile-guillemot {
-  overflow: hidden;
-
-}
-
-#reisetopia {
+.box-1 .img-box {
   overflow: hidden;
 }
 
-#fred-kleber {
-  overflow: hidden;
+.box-1 .img-box img {
+  display: block;
+  max-width: 400px;
+  max-height: 150px;
+  min-width: 280px;
 }
 
-#marcus-loke {
-
-  overflow: hidden;
-}
 
 
 
-}
+
+
 
 .box-2 {
 
-  border: #F2F2 solid;
+  border: white solid;
   width: 600px;
   height: 500px;
-  background-color: #F2F2;
-  border-radius: 15px;
+  background-color: #b5b3b0;
+  border-radius: 10px;
   display: grid;
   grid-template-columns: auto;
   justify-content: center;
@@ -192,11 +288,15 @@ grid-row-gap: 10px;
 
 .box-2 b {
   font-family: 'Raleway', sans-serif;
+  margin-top: 5px;
 }
 
-.box-2 div {
-    background-color: #F2F2;
+.box-2 img {
+  max-width: 150px;
+  max-height: 200px;
+  min-height: 120px;
 }
+
 
 #nicate-lee {
   overflow: hidden;
@@ -212,7 +312,7 @@ grid-row-gap: 10px;
 }
 
 .box-2 div {
-  background-color: black;
+  background-color: white;
   width: 300px;
   height: 120px;
   border-radius: 10px;
@@ -227,7 +327,7 @@ grid-row-gap: 10px;
   display: grid;
   grid-template-rows: auto auto auto auto;
   grid-template-columns: auto auto auto auto;
-  background-color: light-grey;
+  background-color: white;
   width: 1565px;
   height: 450px;
   margin-top: 40px;
@@ -237,13 +337,14 @@ grid-row-gap: 10px;
 #box-act-1 {
   background-color: black;
   width: 350px;
-  height: 400px;
+  height: 350px;
   margin-top: 40px;
   border-radius: 10px;
   overflow: hidden;
 
 
 }
+
 
 #box-act-2 {
   background-color: black;
@@ -309,7 +410,7 @@ grid-row-gap: 10px;
 
 .footer {
   display: grid;
-  background-color: grey;
+  background-color: #b5b3b0;
   width: 1565px;
   height: 250px;
   margin-top: 40px;
@@ -361,6 +462,19 @@ line-height: 1.6;
 a:hover {
   background-color: #DEEBFF;
 }
+
+@media all and (max-width: 768px) {
+body {
+  min-width: 300px;
+}
+
+div {
+  display: block;
+}
+
+}
+
+
 
 /* Seach button css */
 
