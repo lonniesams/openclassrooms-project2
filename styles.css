@@ -57,30 +57,47 @@ float: right;
 
 }
 
+.searchTerm {
+font-size: 23px;
+border-width: 1px;
+font-weight: bold;
+text-decoration-color: black;
+}
+
+.search-box {
+  background-color: grey;
+  border-color: white;
+  border-width: thin;
+  width: 170px;
+  height: 31px;
+  display: flex;
+  align-items: center;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+
+}
+
+
+
+.flex-container-3 h3 {
+  font-family: 'Raleway', sans-serif;
+}
+
  p {
   font-family: 'Raleway', sans-serif;
 }
 
 
+
 .flex-container-4 {
   display: grid;
   margin: 19px;
-  grid-auto-rows: auto;
-  grid-template-columns: auto auto auto auto auto;
+  grid-template-columns: 60px 160px 220px 180px 180px;
   justify-content: start;
-  grid-row-gap: 1px;
+align-content: center;
   margin-top: 40px;
   font-family: 'Raleway', sans-serif;
 
-}
-
-.filter {
-display: block;
-
-}
-
-.flex-container-4 div {
-display: inline-block;
 }
 
 .flex-container-4 b{
@@ -91,123 +108,122 @@ display: inline-block;
   font-family: 'Raleway', sans-serif;
 }
 
+
+
 .button {
   margin: 10px;
   border-radius: 20px 20px 20px 20px;
   background-color: white;
   font-family: 'Raleway', sans-serif;
-  border none;
+  border: none;
   font-weight: bold;
 }
 
 .searchButton {
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
-  background-color: #0065FC;
-  border-radius: 5px;
+  background-color: #0065FC ;
   color: white;
+  height: 35px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  border-color: none;
 }
 
 .pets-allowed {
   display: inline-block;
   padding: 0 25px;
-  height: 28px;
-  font-size: 10px;
-  line-height: 10px;
-  margin-bottom: 3px;
-  border-radius: 20px 20px 20px 20px;
+  height: 30px;
+  font-size: 16px;
+  line-height: 30px;
+  border-radius: 25px;
   background-color: white;
-  border-color: grey;
-  border: 1px solid;
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
-  margin-left: 4px;
+  border: 1px solid;
+  border-color: grey;
+  margin-right: 5px;
 }
 
 .pets-allowed img {
-  line-height: 45px;
-  margin-right: 7px;
-  display: inline-block;
-  height: 18px;
-  width: 18px;
+  float: left;
+  margin: 0 10px 0 -25px;
+  height: 30px;
+  width: 30px;
   border-radius: 50%;
 }
+
 .romantic {
   display: inline-block;
   padding: 0 25px;
-  height: 28px;
-  font-size: 10px;
-  line-height: 10px;
-  margin-bottom: 3px;
-  border-radius: 20px 20px 20px 20px;
+  height: 30px;
+  font-size: 16px;
+  line-height: 30px;
+  border-radius: 25px;
   background-color: white;
-  border-color: grey;
-  border: 1px solid;
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
-  margin-left: 3px;
+  border: 1px solid;
+  border-color: grey;
+  margin-right: 5px;
 }
 
 .romantic img {
-  line-height: 45px;
-  margin-right: 7px;
-  display: inline-block;
-  height: 18px;
-  width: 18px;
+  float: left;
+  margin: 0 10px 0 -25px;
+  height: 30px;
+  width: 30px;
   border-radius: 50%;
 }
+
 .dollar {
   display: inline-block;
   padding: 0 25px;
-  height: 28px;
-  font-size: 10px;
-  line-height: 10px;
-  margin-bottom: 3px;
-  border-radius: 20px 20px 20px 20px;
+  height: 30px;
+  font-size: 16px;
+  line-height: 30px;
+  border-radius: 25px;
   background-color: white;
-  border-color: grey;
-  border: 1px solid;
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
-  margin-left: 3px;
+  border: 1px solid;
+  border-color: grey;
 }
 
 .dollar img {
-  line-height: 45px;
-  margin-right: 7px;
-  display: inline-block;
-  height: 18px;
-  width: 18px;
+  float: left;
+  margin: 0 10px 0 -25px;
+  height: 30px;
+  width: 30px;
   border-radius: 50%;
 }
 
 .family {
   display: inline-block;
   padding: 0 25px;
-  height: 28px;
-  font-size: 10px;
-  line-height: 10px;
-  margin-bottom: 3px;
-  border-radius: 20px 20px 20px 20px;
+  height: 30px;
+  font-size: 16px;
+  line-height: 30px;
+  border-radius: 25px;
   background-color: white;
-  border-color: grey;
-  border: 1px solid;
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
-  margin-left: 3px;
+  border: 1px solid;
+  border-color: grey;
+  margin-right: 5px;
 }
 
 .family img {
-  line-height: 45px;
-  margin-right: 7px;
-  display: inline-block;
-  height: 18px;
-  width: 18px;
+  float: left;
+  margin: 0 10px 0 -25px;
+  height: 30px;
+  width: 30px;
   border-radius: 50%;
 }
 
 .filter b {
-  margin-left: 7px;
+  margin-top: 7px,
+  font-family: 'Raleway', sans-serif;
 
 }
 
