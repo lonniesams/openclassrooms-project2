@@ -1,6 +1,17 @@
 Body {
   background-color: white;
+  font-family: 'Raleway', sans-serif;
 }
+
+a:active {
+  color: #0065fc;
+}
+
+a:hover {
+  color: #0065fc;
+  border-top: 2px solid;
+}
+
 
 
 .flex-container-1 {
@@ -12,9 +23,6 @@ Body {
 
 }
 
-.flex-container-1 li:hover {
-  background-color: #DEEBFF;
-}
 
 .links-head {
 float: right;
@@ -26,6 +34,7 @@ float: right;
   font-family: 'Raleway', sans-serif;
   color: #0065FC;
   margin-top: auto;
+
 }
 
 .flex-container-1 ul {
@@ -33,54 +42,18 @@ float: right;
   display: inline-flex;
 }
 
-.flex-container-2 {
-  display: flex;
-  flex-direction: row-reverse;
-  flex-wrap: nowrap;
 
 
+.flex-container-1 a {
+text-decoration: none;
 }
 
 
- .flex-container-2 li {
-  margin: 20px;
+
+
+.flex-container-3 {
   font-family: 'Raleway', sans-serif;
-  color: #0065FC;
 
-}
-
-
- .flex-container-2 ul {
-  list-style-type: none;
-  display: inline-flex;
-
-
-}
-
-.searchTerm {
-font-size: 23px;
-border-width: 1px;
-font-weight: bold;
-text-decoration-color: black;
-}
-
-.search-box {
-  background-color: grey;
-  border-color: white;
-  border-width: thin;
-  width: 170px;
-  height: 31px;
-  display: flex;
-  align-items: center;
-  border-bottom-left-radius: 10px;
-  border-top-left-radius: 10px;
-
-}
-
-
-
-.flex-container-3 h3 {
-  font-family: 'Raleway', sans-serif;
 }
 
  p {
@@ -88,13 +61,52 @@ text-decoration-color: black;
 }
 
 
+.searchTerm {
+font-size: 20px;
+border-width: 1px;
+font-weight: bold;
+color: black;
+width: 200px;
+}
+
+.search-box {
+
+}
+
+.searchButton {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  background-color: #0065FC ;
+  color: white;
+  height: 28px;
+  font-size: 19px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  border-color: none;
+  letter-spacing: 1px;
+  margin: auto;
+}
+
+button:hover {
+  color: #0065fc;
+  border-top: 2px solid;
+}
+
+
+
+.fas fa-map-marker-alt {
+  background: url('fas fa-map-marker-alt');
+  background-color: #f2f2f2
+}
+
+
+
 
 .flex-container-4 {
   display: grid;
   margin: 19px;
-  grid-template-columns: 60px 160px 220px 180px 180px;
+  grid-template-columns: 60px 140px 210px 180px 180px;
   justify-content: start;
-align-content: center;
   margin-top: 40px;
   font-family: 'Raleway', sans-serif;
 
@@ -109,26 +121,6 @@ align-content: center;
 }
 
 
-
-.button {
-  margin: 10px;
-  border-radius: 20px 20px 20px 20px;
-  background-color: white;
-  font-family: 'Raleway', sans-serif;
-  border: none;
-  font-weight: bold;
-}
-
-.searchButton {
-  font-family: 'Raleway', sans-serif;
-  font-weight: bold;
-  background-color: #0065FC ;
-  color: white;
-  height: 35px;
-  border-bottom-right-radius: 10px;
-  border-top-right-radius: 10px;
-  border-color: none;
-}
 
 .pets-allowed {
   display: inline-block;
@@ -196,6 +188,8 @@ align-content: center;
   height: 30px;
   width: 30px;
   border-radius: 50%;
+  background-color: #DEEBFF;
+  background-size: 30px 30px;
 }
 
 .family {
@@ -227,9 +221,6 @@ align-content: center;
 
 }
 
-button:hover .button {
-  background-color: #DEEBFF;
-}
 
 .searchTerm {
   font-family: 'Raleway', sans-serif;
@@ -241,6 +232,7 @@ button:hover .button {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  font-family: 'Raleway', sans-serif;
 
 }
 
@@ -249,7 +241,7 @@ border: white solid;
 width: 900px;
 height: 500px;
 border-radius: 15px;
-background-color: #b5b3b0;
+background-color: #f2f2f2;
 display: grid;
 grid-template-columns: 300px 300px 300px;
 grid-template-rows: 240px 240px;
@@ -284,6 +276,23 @@ grid-template-rows: 240px 240px;
 }
 
 
+.fig-1 {
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 400px;
+  min-width: 280px;
+  max-height: 50px;
+
+}
+
+.fig-1 b {
+  float: left;
+}
+
+.fig-1 p {
+  float: left;
+}
 
 
 
@@ -294,7 +303,7 @@ grid-template-rows: 240px 240px;
   border: white solid;
   width: 600px;
   height: 500px;
-  background-color: #b5b3b0;
+  background-color: #f2f2f2;
   border-radius: 10px;
   display: grid;
   grid-template-columns: auto;
@@ -311,6 +320,7 @@ grid-template-rows: 240px 240px;
   max-width: 150px;
   max-height: 200px;
   min-height: 120px;
+
 }
 
 
@@ -350,13 +360,19 @@ grid-template-rows: 240px 240px;
 
 }
 
+.act-text {
+  width: 350px;
+  height: 17px;
+}
+
 #box-act-1 {
   background-color: black;
   width: 350px;
-  height: 350px;
+  height: 400px;
   margin-top: 40px;
   border-radius: 10px;
   overflow: hidden;
+  display: block;
 
 
 }
@@ -426,9 +442,9 @@ grid-template-rows: 240px 240px;
 
 .footer {
   display: grid;
-  background-color: #b5b3b0;
+  background-color: #f2f2f2;
   width: 1565px;
-  height: 250px;
+  height: 200px;
   margin-top: 40px;
   grid-template-columns: auto auto auto;
   grid-template-rows: auto;
@@ -475,20 +491,11 @@ line-height: 1.6;
   position: absolute;
 }
 
-a:hover {
-  background-color: #DEEBFF;
+.footer a {
+  text-decoration: none;
 }
 
-@media all and (max-width: 768px) {
-body {
-  min-width: 300px;
-}
 
-div {
-  display: block;
-}
-
-}
 
 
 
