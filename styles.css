@@ -105,7 +105,7 @@ button:hover {
 .flex-container-4 {
   display: grid;
   margin: 19px;
-  grid-template-columns: 60px 140px 210px 180px 180px;
+  grid-template-columns: 160px 210px 180px 180px;
   justify-content: start;
   margin-top: 40px;
   font-family: 'Raleway', sans-serif;
@@ -180,6 +180,7 @@ button:hover {
   font-weight: bold;
   border: 1px solid;
   border-color: grey;
+  margin-right: 5px;
 }
 
 .dollar img {
@@ -215,15 +216,24 @@ button:hover {
   border-radius: 50%;
 }
 
+
+
+
 .filter b {
   margin-top: 7px,
   font-family: 'Raleway', sans-serif;
+  font-size: 16px;
 
 }
 
 
 .searchTerm {
   font-family: 'Raleway', sans-serif;
+}
+
+.fa-info-circle {
+    margin: 0px 10px 0px 0px;
+    float: left;
 }
 
 
@@ -277,21 +287,13 @@ grid-template-rows: 240px 240px;
 
 
 .fig-1 {
-  display:flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  max-width: 400px;
-  min-width: 280px;
-  max-height: 50px;
+  width: 300px;
+  height: 90px;
 
 }
 
-.fig-1 b {
-  float: left;
-}
-
-.fig-1 p {
-  float: left;
+.fig-1 figcaption {
+  margin-top: 0;
 }
 
 
@@ -373,6 +375,7 @@ grid-template-rows: 240px 240px;
   border-radius: 10px;
   overflow: hidden;
   display: block;
+
 
 
 }
@@ -494,6 +497,7 @@ line-height: 1.6;
 .footer a {
   text-decoration: none;
 }
+
 
 
 
