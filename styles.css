@@ -61,19 +61,24 @@ text-decoration: none;
 }
 
 
-.searchTerm {
+.searchterm {
 font-size: 20px;
 border-width: 1px;
 font-weight: bold;
 color: black;
-width: 200px;
+width: 220px;
+font-family: 'Raleway', sans-serif;
+display: inline-block;
+
 }
+
 
 .search-box {
-
+  width: 25%;
+  height: 40px;
 }
 
-.searchButton {
+.search-button {
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
   background-color: #0065FC ;
@@ -85,21 +90,23 @@ width: 200px;
   border-color: none;
   letter-spacing: 1px;
   margin: auto;
+  outline: none;
+  margin: 0px;
+  position: absolute;
+
+}
+
+.fas fa-map-marker-alt {
+  background-color: #f2f2f2;
+  position: absolute;
+  padding-left: 0.8em
 }
 
 button:hover {
-  color: #0065fc;
+  color: #DEEBFF;
   border-top: 2px solid;
+  text-decoration-color: white;
 }
-
-
-
-.fas fa-map-marker-alt {
-  background: url('fas fa-map-marker-alt');
-  background-color: #f2f2f2
-}
-
-
 
 
 .flex-container-4 {
@@ -227,10 +234,6 @@ button:hover {
 }
 
 
-.searchTerm {
-  font-family: 'Raleway', sans-serif;
-}
-
 .fa-info-circle {
     margin: 0px 10px 0px 0px;
     float: left;
@@ -255,18 +258,15 @@ background-color: #f2f2f2;
 display: grid;
 grid-template-columns: 300px 300px 300px;
 grid-template-rows: 240px 240px;
-
-
 }
+
+
 
 .box-1 div {
 
   margin: 15px 15px 15px 15px;
   border-radius: 10px;
   background-color: white;
-
-
-
 }
 
 .box-1 b {
