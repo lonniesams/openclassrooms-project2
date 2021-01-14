@@ -62,7 +62,7 @@ text-decoration: none;
 
 
 .searchterm {
-font-size: 20px;
+font-size: 25px;
 border-width: 1px;
 font-weight: bold;
 color: black;
@@ -80,44 +80,50 @@ display: inline-block;
 
 .search-button {
   font-family: 'Raleway', sans-serif;
-  font-weight: bold;
   background-color: #0065FC ;
   color: white;
-  height: 28px;
-  font-size: 19px;
-  border-bottom-right-radius: 10px;
-  border-top-right-radius: 10px;
+  height: 34px;
+  font-size: 24px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
   border-color: none;
   letter-spacing: 1px;
   margin: auto;
   outline: none;
   margin: 0px;
   position: absolute;
+  cursor: pointer;
 
 }
 
-.fas fa-map-marker-alt {
+. fa-map-marker-alt {
   background-color: #f2f2f2;
   position: absolute;
   padding-left: 0.8em
 }
 
-button:hover {
-  color: #DEEBFF;
-  border-top: 2px solid;
-  text-decoration-color: white;
-}
 
 
 .flex-container-4 {
   display: grid;
   margin: 19px;
-  grid-template-columns: 160px 210px 180px 180px;
+  grid-template-columns: 170px 210px 180px 180px;
   justify-content: start;
   margin-top: 40px;
   font-family: 'Raleway', sans-serif;
+  column-gap: 3px;
 
 }
+
+nav button {
+  border-radius: 11px;
+  background-color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
 
 .flex-container-4 b{
   margin-top: 3px;
@@ -126,7 +132,6 @@ button:hover {
 .flex-container-4 p {
   font-family: 'Raleway', sans-serif;
 }
-
 
 
 .pets-allowed {
