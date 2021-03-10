@@ -513,3 +513,70 @@ line-height: 1.6;
 
 
 /* Seach button css */
+
+
+
+nav p{
+  display: inline;
+}
+nav ul{
+  padding: 0;
+}
+.nav-items {
+  display: inline-block;
+  border: 2px solid #f2f2f2;
+  border-radius: 25px;
+  padding: 10px 25px 10px 0px;
+  margin: 0 10px;
+  font-weight: 600;
+}
+
+.bubble{
+  background-color: #deebff;
+  padding: 12px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.nav-items .fas{
+  color: #0065fc;
+}
+
+.search-icon-bg {
+  background-color: #f2f2f2;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  display: inline-block;
+}
+
+.search-input {
+  padding: 11px 11px 10px;
+  border: 1px solid #f2f2f2;
+  border-left: 0;
+  border-right: 0;
+  margin-left: -4px;
+  width: 20%;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: black;
+  font-weight: 600;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: black;
+  font-weight: 600;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: black;
+  font-weight: 600;
+}
+
+.sign-up {
+  float: right;
+}
